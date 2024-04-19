@@ -1,0 +1,23 @@
+- Aggiungere FB Generale asse nel tipo di asse interessato (Ad es. Assi Idraulici/Assi Specifici/Principali/Asse P)
+- Dentro ACT_Abilitazioni modificare l variabili per i consensi al movimento
+- Dentro ACT_Assegna nomi IO aggiungere i testi dei nuovi IO 
+- Dentro ACT_Modalità inserire le opzioni di funzionamento di qull'asse
+- Dentro ACT_Target gestire i target di posizione (Ce sempre un target anche se si tratta di un ON-OFF)
+- Creare la struct con i parametri
+- Dentro la cartella HMI/HMI_Manuali aggiungere i comandi manuali dell'asse andranno usate dentro a ACT_Abilitazioni
+- Dentro la cartella HMI/JOG_MUltifunzione aggiungere il nuovo indiece del multifunzione andranno usate dentro a ACT_Abilitazioni
+- Le variabili Multifunzioni andranno aggiunte in FB_Main/ACT_JogMultiplo
+- Dentro la cartella HMI/HMI_Stato_Assi aggiungere la variabili di appoggio per l'HMI
+- Le variabili Stato assi andranno aggiunte in FB_Proface/ACT_Stato_Assi_e_Sensori
+- In FB_Proface/ACT_RicetteCodifica aggiungere la codifica dell'ingresso HMI del nuovo asse
+- In FB_Proface/ACT_RicetteLimitiEAllarmi aggiungere il nuovo asse nelle eccezioni alle anomalie
+- In FB_Proface/ACT_AbilitaManuali inserire il reset delle variabili di abilitazione comando manuale
+- In FB_Proface/ACT_Ricette_Autoapprendimento aggiungere componenti se asse con autoapprendimento
+- In FB_Proface/ACT_InitCheck_Parametri aggiungere il nuovo asse
+- Dentro la cartella RicettaAutomatico/FB_RicettaAuto aggiungere la ACT relativa la comando automatico del nuovo asse
+  Attenzione! il numero dell'ACT sta a indicare il numero della variabile "i_NumStepDone" che definiremo nel richiamo dell'asse
+- Dentro le ACT_Reset e ACT_Init aggiungere i reset delle variabili di abilitazione, reset encoder e target
+- Dentro a GVL_Main creare le nuove variabili neessarie alla gestione automatica
+- Dentro a 999_Globali/STRUCT_Main_FI Aggiungere le variabili di fuori ingombro
+- Dentro a Task_Main/ACT_Consensi_FI aggiungere i consensi di Fuori ingombro
+- Dentro a Task_Main/ACT_Output aggiungere gli output abbinati all'interno del blocco

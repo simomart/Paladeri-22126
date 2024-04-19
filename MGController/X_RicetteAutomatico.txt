@@ -1,3 +1,0 @@
-Asse			Target							Parametro
-
-- @AT			Extend/Retract (Direzione di rotazione Z)		Quota posizione Ftc (valore di Zero Z)

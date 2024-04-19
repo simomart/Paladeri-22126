@@ -1,2 +1,0 @@
-- Finire gestione FB_Altivar
-- Aggiungere gestione Lexium con posizionatore
