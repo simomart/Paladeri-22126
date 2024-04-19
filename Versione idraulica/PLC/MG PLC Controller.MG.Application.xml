@@ -2134,6 +2134,7 @@
         <Node name="bSvuotaTraslatore" type="T_BOOL" access="ReadWrite" />
         <Node name="bVeloceON" type="T_BOOL" access="ReadWrite" />
         <Node name="Data" type="T_ARRAY__1__4__OF_WORD" access="ReadWrite" />
+        <Node name="DeltaRotazione2" type="T_REAL" access="ReadWrite" />
         <Node name="diMaxPuntiAutocalibrazione" type="T_DINT" access="ReadWrite" />
         <Node name="diMinPuntiAutocalibrazione" type="T_DINT" access="ReadWrite" />
         <Node name="iCompletamentoAutocalibrazione" type="T_WORD" access="ReadWrite" />
